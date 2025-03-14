@@ -6,12 +6,15 @@ func main() {
 	var numero int
 
 	n, err := fmt.Scanln(&numero)
-	fmt.Println("Ciao, mondo!")
 
 	if err != nil {
 		fmt.Println("Errore durante la lettura:", err)
 	}
-	fmt.Println("Il tuo numero è:", numero)
+	if numero%2 == 0 {
+		fmt.Println("Il tuo numero è pari")
+	} else {
+		fmt.Println("Il tuo numero è dispari")
+	}
 	fmt.Println("Elementi letti:", n)
 	return
 
