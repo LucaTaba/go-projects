@@ -20,4 +20,7 @@ func main() {
 
 	elapsed := time.Since(start)
 	fmt.Printf("Tempo di esecuzione: %s\n", elapsed)
+
+	fmt.Printf("Tempo di esecuzione: %s\n", elapsed)
+	fmt.Printf("Tempo di esecuzione: %s\n", elapsed)
 }
