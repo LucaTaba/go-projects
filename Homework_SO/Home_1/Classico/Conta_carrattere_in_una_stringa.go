@@ -11,5 +11,5 @@ func main() {
 			conteggioTotale += 1
 		}
 	}
-	fmt.Println(conteggioTotale)
+	fmt.Println("\n La lettera c è contenuta", conteggioTotale, "volte nel testo:", stringa, "\n")
 }
