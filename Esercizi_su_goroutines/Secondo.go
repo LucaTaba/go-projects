@@ -40,5 +40,5 @@ func main() {
 	}
 
 	fmt.Println("Somma totale:", sommaTotale)
-	fmt.Println("Test")
+
 }
