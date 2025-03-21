@@ -12,3 +12,5 @@ os.MkdirAll: Crea una directory e tutte le directory padre necessarie.
 os.Chdir: Cambia la directory di lavoro corrente.
 os.Getwd: Restituisce la directory di lavoro corrente.
 os.Stat: Restituisce informazioni su un file o una directory.
+
+Come utilizzare os.Open lo si vede in Lettura_da_File

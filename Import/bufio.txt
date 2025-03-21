@@ -1,0 +1,14 @@
+Pacchetto bufio
+
+-- import "bufio"
+
+il pacchetto bufio in Go fornisce funzionalità di I/O bufferizzato, rendendo più efficienti le operazioni di lettura e scrittura. 
+È particolarmente utile quando si lavora con file di grandi dimensioni o quando si desidera leggere o scrivere dati riga per riga. 
+
+bufio.NewScanner -> creare un nuovo Scanner
+
+    scanner := bufio.NewScanner(file)
+            for scanner.Scan() {
+                    fmt.Println(scanner.Text()) // Legge e stampa ogni riga
+            }
+            
