@@ -1,0 +1,16 @@
+Pacchetto os
+
+-- import "os"
+
+os.Open: Apre un file in sola lettura.
+os.Create: Crea o tronca un file per la scrittura.
+os.OpenFile: Apre un file con opzioni più specifiche (modalità, permessi).
+os.Remove: Rimuove un file o una directory.
+os.Rename: Rinomina o sposta un file o una directory.
+os.Mkdir: Crea una nuova directory.
+os.MkdirAll: Crea una directory e tutte le directory padre necessarie.
+os.Chdir: Cambia la directory di lavoro corrente.
+os.Getwd: Restituisce la directory di lavoro corrente.
+os.Stat: Restituisce informazioni su un file o una directory.
+
+Come utilizzare os.Open lo si vede in Lettura_da_File
