@@ -13,7 +13,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer file.Close()
+	defer file.Close() // con questa prima parte andiamo a leggere dal file input (in sola lettura) tramite il pacchetto os
 
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
@@ -27,6 +27,7 @@ func main() {
 	}
 
 	if err := scanner.Err(); err != nil {
+
 		log.Fatal(err)
 	}
 }
