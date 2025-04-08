@@ -1,6 +1,7 @@
 package main
 
 func main() {
+<<<<<<< HEAD
 	package main
 
 import (
@@ -50,4 +51,7 @@ func main() {
 
 	fmt.Println("La somma totale dei quadrati è:", sommaTotale)
 }
+=======
+
+>>>>>>> 2918bfd00511d83850541a6534ba81aac75b99e1
 }
